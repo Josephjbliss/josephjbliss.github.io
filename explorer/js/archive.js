@@ -7,7 +7,7 @@
     
     $(this).prop('disabled', true).html('exploring the archive').append($('<i/>').addClass('fa fa-circle-o-notch fa-spin'));
 
-    $.getJSON('http://api.credentials.generalassemb.ly/explorer/posts', function(data) {
+    $.getJSON('https://credentials-api.generalassemb.ly/explorer/posts', function(data) {
 
         $.each(data.posts, function(key, value){
           var newArticle = $('<article/>');
