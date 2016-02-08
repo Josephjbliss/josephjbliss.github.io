@@ -1,0 +1,9 @@
+- Simple Marker Icons
+- Info Windows
+- Disabling the default UI
+- Custom controls
+- Custom Marker Icons
+- Use Snazzy Maps? - snazzymaps.com
+
+API Key:
+AIzaSyDW9Ijqq5Q-8yv6tNtxME59kzy5IULD9g4
