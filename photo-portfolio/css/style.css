@@ -424,5 +424,11 @@ input[type=radio] ~ input[type=radio] {
     display: block;
     width: auto;
   }
-
+  body > footer p {
+    display: block;
+    text-align: center;
+  }
+  body > footer #social {
+    float: none;
+  }
 }
