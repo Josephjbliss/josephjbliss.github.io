@@ -9,8 +9,8 @@ body {
 h1 {
   text-align: center;
   text-transform: uppercase;
-  font-size: 3.5em;
-  line-height: .9;
+  font-size: 5.5vw;
+  line-height: .8;
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -22,7 +22,6 @@ header {
   background-repeat: no-repeat;
   background-position: center center;
   padding: 14% 0 23% 0;
-  font-size: 1.6vw;
   position: relative;
   background-size: cover;
 }
@@ -34,7 +33,6 @@ nav {
   right: 0;
   font-size: 24px;
   font-size: 1.5rem;
-  /*font-weight: 10;*/
   text-transform: lowercase;
   text-align: center;
   color: #222222;
@@ -82,10 +80,21 @@ body > footer {
   clear: both;
   background-color: #dddddd;
   margin: 0;
-  padding: 1%;
-  text-align: center;
+  padding: 1% 2%;
 }
 
+body > footer p {
+  display: inline-block;
+}
+
+body > footer #social {
+  float: right;
+  color: #444;
+}
+
+body > footer #social a {
+  margin-left: .5em;
+}
 /*-------------------
   Home page
 --------------------*/
@@ -339,15 +348,16 @@ input[type=radio] ~ input[type=radio] {
   }
   header {
     position: relative;
-    height: 20em;
+    height: 15em;
     background-size: cover;
     background-position: center;
     padding: 0;
-    padding-left: 1em;
-    font-size: 2.5vw;
   }
   h1 {
     position: absolute;
+    font-size: 2em;
+    top: .5em;
+    left: .5em;
   }
 
   nav {
@@ -397,10 +407,11 @@ input[type=radio] ~ input[type=radio] {
   }
 
   blockquote {
+    margin: 2em auto;
     width: auto;
     background: none;
   }
-  
+
   blockquote:after {
     display: none;
   }
