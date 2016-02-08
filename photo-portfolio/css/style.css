@@ -397,8 +397,10 @@ input[type=radio] ~ input[type=radio] {
   }
 
   blockquote {
+    width: auto;
     background: none;
   }
+  
   blockquote:after {
     display: none;
   }
