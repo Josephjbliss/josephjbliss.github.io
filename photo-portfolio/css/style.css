@@ -11,9 +11,15 @@ h1 {
   text-transform: uppercase;
   font-size: 5.5vw;
   line-height: .8;
+  font-weight: 900;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h2 {
+  font-size: 2em;
+  font-weight: 900;
+}
+
+h3 {
   font-weight: 900;
 }
 
@@ -94,32 +100,33 @@ body > footer #social {
 body > footer #social a {
   margin-left: .5em;
 }
+
+
 /*-------------------
   Home page
 --------------------*/
-#home section{
+
+.home section {
   padding: 1%;
   overflow: hidden;
 }
 
+
 /*-------------------
   About the Artists 
 --------------------*/
-#about header {
+
+.about header {
   background-image: url("../images/bg4.jpg");
 }
 
-#about p {
+.about p {
   line-height: 1.6;
-}
-
-#about h2 {
-  font-size: 2em;
 }
 
 blockquote {
   text-align: center;
-  font-family: Merriweather, Georgia;
+  font-family: "Merriweather", Merriweather, Georgia, serif;
   font-weight: 300;
   font-style: italic;
   width: 85%;
@@ -127,9 +134,19 @@ blockquote {
   position: relative;
   margin: 3em auto;
   padding: 0 1.5em;
+}
+
+blockquote:before {
+  content: "";
+  height: 2em;
+  position: absolute;
+  left: 0;
+  top: 0;
   background-image: url("../images/quote2.png");
   background-position: top left;
   background-repeat: no-repeat;
+  width: 3em;
+  z-index: -1;
 }
 
 blockquote:after {
@@ -148,61 +165,64 @@ blockquote:after {
 section#biography {
   width: 85%;
   margin: 2em auto;
-
 }
 
-#about section img {
+.about section img {
   width: 100%;
   display: block;
 }
 
-#about section img.right {
+.about section img.right {
   float: right;
   width: 50%;
   margin: 0 0 1em 1em;
 }
 
-#about section img.left {
+.about section img.left {
   float: left;
   width: 50%;
   margin: 0 1em 1em 0;
 }
 
-#about h2:nth-of-type(2) {
+.about h2:nth-of-type(2) {
   text-align: right;
 }
 
-.cards {
+section#services {
   width: 85%;
   margin: 2em auto 3em;
+}
+
+.cards {
   display: -webkit-flex;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
 .card {
-    width: 32.333%;
-    background-color: #f4f4f4;
-    text-align: center;
-    box-sizing: border-box;
-    padding: .5em;
-    border: 1px solid #fff;
-    cursor: pointer;
+  width: 33.333%;
+  background-color: #f4f4f4;
+  text-align: center;
+  box-sizing: border-box;
+  padding: .5em;
+  border: 1px solid #fff;
+  cursor: pointer;
 }
 
 .card:hover {
   background-color: #f1f1f1;
 }
 
+
 /*-------------------
   Order prints 
 --------------------*/
 
-#prints header {
+.prints header {
   background-image: url("../images/bg3.jpg");
 }
 
@@ -216,7 +236,7 @@ a#order {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom:2%;
+  margin-bottom: 2%;
   width: 6em;
   text-align: center;
 }
@@ -226,11 +246,12 @@ input[type=radio] ~ input[type=radio] {
   margin-right: .25em;
 }
 
+
 /*-------------------
   Locations 
 --------------------*/
 
-#locations header {
+.locations header {
   background-image: url("../images/bg1.jpg");
 }
 
@@ -248,8 +269,12 @@ input[type=radio] ~ input[type=radio] {
   width: 100%;
 }
 
+
 /* Test-taker must add this */
+
+
 /*****************************/
+
 #overlay {
   position: absolute;
   top: 0;
@@ -258,7 +283,7 @@ input[type=radio] ~ input[type=radio] {
   display: none;
   width: 100%;
   height: 100%;
-  background-color: rgba(40,40,40,.8);
+  background-color: rgba(40, 40, 40, .8);
   display: none;
   color: #333333;
 }
@@ -301,6 +326,7 @@ input[type=radio] ~ input[type=radio] {
   display: inline-block;
 }
 
+
 /*****************************/
 
 
@@ -308,7 +334,7 @@ input[type=radio] ~ input[type=radio] {
   Contact Us 
 --------------------*/
 
-#contact header {
+.contact header {
   background-image: url("../images/bg.jpg");
 }
 
@@ -362,57 +388,47 @@ input[type=radio] ~ input[type=radio] {
     text-align: right;
     font-size: 1em;
   }
-
   nav.open {
-    background-color: rgba(0,0,0,.8);
+    background-color: rgba(0, 0, 0, .8);
     z-index: 2;
     position: fixed;
     height: 100%;
   }
-
   nav.open a {
     display: block;
     color: #fff;
   }
-
   nav a {
     display: none;
     font-size: 1.25em;
     padding-right: 1em;
   }
-
   nav a:hover, nav a.current {
     border-bottom: none;
   }
-
   #mobile {
     font-size: 2em;
     margin: .75em;
     display: block;
     padding-right: 0;
   }
-
   .thumbnail {
     width: 98%;
   }
-
-  #about section img.right, #about section img.left {
+  .about section img.right, .about section img.left {
     float: none;
     width: 100%;
     margin: 0;
   }
-
   blockquote {
     margin: 2em auto;
     width: auto;
     background: none;
   }
-
-  blockquote:after {
+  blockquote:after, blockquote:before {
     display: none;
   }
-
-  section#biography {
+  section#biography, section#services {
     width: 90%;
   }
   .cards {
