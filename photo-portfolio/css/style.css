@@ -120,7 +120,9 @@ body > footer #social a {
   background-image: url("../images/bg4.jpg");
 }
 
-.about p {
+/* Test-taker must add this */
+/*******************************/
+/*.about p {
   line-height: 1.6;
 }
 
@@ -215,7 +217,8 @@ section#services {
 
 .card:hover {
   background-color: #f1f1f1;
-}
+}*/
+  /*******************************/
 
 
 /*-------------------
@@ -269,12 +272,14 @@ input[type=radio] ~ input[type=radio] {
   width: 100%;
 }
 
+#overlay-wrapper {
+  display: none;
+}
+
 
 /* Test-taker must add this */
-
-
 /*****************************/
-
+/*
 #overlay {
   position: absolute;
   top: 0;
@@ -324,9 +329,7 @@ input[type=radio] ~ input[type=radio] {
   text-align: center;
   margin: .5em auto 0;
   display: inline-block;
-}
-
-
+}*/
 /*****************************/
 
 
@@ -388,7 +391,9 @@ input[type=radio] ~ input[type=radio] {
     text-align: right;
     font-size: 1em;
   }
-  nav.open {
+  /*******************************/
+  /* Test Taker Must Add This */
+  /*  nav.open {
     background-color: rgba(0, 0, 0, .8);
     z-index: 2;
     position: fixed;
@@ -397,7 +402,8 @@ input[type=radio] ~ input[type=radio] {
   nav.open a {
     display: block;
     color: #fff;
-  }
+  }*/
+  /*******************************/
   nav a {
     display: none;
     font-size: 1.25em;
@@ -415,7 +421,9 @@ input[type=radio] ~ input[type=radio] {
   .thumbnail {
     width: 98%;
   }
-  .about section img.right, .about section img.left {
+  /*******************************/
+  /* Test Taker Must Add This */
+/*  .about section img.right, .about section img.left {
     float: none;
     width: 100%;
     margin: 0;
@@ -439,7 +447,8 @@ input[type=radio] ~ input[type=radio] {
   .card {
     display: block;
     width: auto;
-  }
+  }*/
+  /*******************************/
   body > footer p {
     display: block;
     text-align: center;
