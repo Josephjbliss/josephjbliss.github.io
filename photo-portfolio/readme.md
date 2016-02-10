@@ -47,3 +47,24 @@ Add necessary styles to css/style.css to style the modal according to page 3 of 
 ![Mobile Nav](mobilenav.gif)
 
 Hint: The JS provided toggles the class "open" on the nav and toggles the class "fa-bars" and "fa-close" on the #mobile icon, thereby switching between an "x" and a hamburger icon.
+
+### Grading:
+
+Your code will be graded based on:
+
+- Function: how closely you match the provided Design.
+- Efficiency: its maintainability and run time.
+- Consistency: whether it is written consistently with the rest of the code base. Specifically:
+  * Use only lowercase characters (for elements, attributes, selectors, properties, etc.)
+  * HTML
+    * Begin block objects on their own line.
+    * Do not skip lines.
+    * Indent child elements (two spaces).
+    * Use double quotation marks - "
+  * CSS
+    * Separate words in ID and Class names by a hyphen
+    * Indent declarations, as well as rules within media queries (two spaces).
+    * Use single quotation marks - '
+    * Semicolons: always use.
+    * Separate rules by new lines.
+  * If you're unsure about a particular situation, refer to the Google HTML/CSS Style Guide at https://google.github.io/styleguide/htmlcssguide.xml.
