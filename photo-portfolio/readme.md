@@ -1,7 +1,7 @@
 # Scenario
 Wanderlust Photography is a NYC-based Photography studio. You have been hired as their in-house Front-End Developer, working in tandem with a Visual Designer and Back-End / Javascript Developer. 
 
-## The Problem - Adding an About Page
+## Challenge 1: Add an About Page
 
 Gone are the days of the Wanderlust Photography single-page lander. To provide more information about the business, you are adding an "About Us" page that shows what services they offer, as well as outlines some of the Artist's vision.
 
