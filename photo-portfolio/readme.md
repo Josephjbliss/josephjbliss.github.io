@@ -21,7 +21,7 @@ The following PDF provides Design guidelines. (link)
 
 Strive for pixel perfection.
 
-## The Problem - Styling A Modal and Mobile Nav
+## Challenge 2: Style A Modal and Mobile Nav
 
 Business is booming! Wanderlust has opened spaces in several NYC neighborhoods where they sell prints and photography services. Now that they are a brick-and-mortar - as well as eCommerce - shop, they need to allow users to find their stores. You work with a hard-core Javascript developer who created a Google Map with pins that should pop-up a modal view with more information about each of the following studio locations:
 
