@@ -114,18 +114,23 @@ aside .fa {
     width: auto;
     text-align: left;
   }
+  
   h1 {
     display: inline-block;
   }
+
   nav {
     display: inline-block;
     float: right;
     margin-top: 2.25rem;
   }
-  nav a {
+
+  nav a
+   {
     display: inline-block;
     margin-left: .25rem;
   }
+
   main {
     width: auto;
     margin: 0;
@@ -135,26 +140,32 @@ aside .fa {
   html {
     font-size: 18px;
   }
+
   aside {
     display: block;
     position: static;
     text-align: center;
     font-size: 1.5rem;
   }
+
   aside .fa {
     display: inline-block;
     margin: 0 .5rem;
   }
+
   main {
     padding: 2rem;
   }
+
   nav a {
     display: none;
   }
+
   nav #mobile {
     font-size: 2rem;
     display: block;
   }
+
   nav.open a {
     text-align: right;
     display: block;
