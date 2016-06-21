@@ -1,10 +1,18 @@
 $(function() {
   'use strict';
-  var vHeight = $(window).height();
-  var vWidth = $(window).width();
+
   var wrapper = $('#wrapper');
 
-  (vHeight > vWidth) ? wrapper.addClass('tall'): wrapper.addClass('wide');
+  var vHeight;
+  var vWidth;
+
+  var setUp = function() {
+    $('#wrapper img').remove();
+    vHeight = $(window).height();
+    vWidth = $(window).width();
+    (vHeight > vWidth) ? wrapper.removeClass('wide').addClass('tall'): wrapper.removeClass('tall').addClass('wide');
+    makeImage();
+  };
 
   var makeURL = function(h, w) {
     return 'https://bonobos-prod-s3.imgix.net/products/18158/original/SHIRT_ShortSleeve_ZebraRun_JetBlack_hero1.jpg?h=' + h + '&w=' + w;
@@ -60,8 +68,19 @@ $(function() {
   });
 
   $('#intro').on('click', function() {
-    makeImage();
+    setUp();
     $(this).fadeOut(300);
     $('nav').fadeIn(300);
   });
+
+  //'Debounce' resize event
+  var resizeTimer;
+
+  $(window).on('resize', function() {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function() {
+      setUp();
+    }, 100);
+  });
+
 });
