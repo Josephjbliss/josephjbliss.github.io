@@ -1,0 +1,22 @@
+body {
+  font-family: Helvetica;
+  background-color: #994545;
+  color: rgb(220,220,220);
+}
+
+h1 {
+  font-size: 40px;
+}
+
+li {
+  font-style: italic;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
