@@ -57,14 +57,14 @@ h2 {
 }
 
 h3 {
-  margin-left: 1rem;
+  margin: 0 1rem;
 }
 
 h4 {
-  margin-left: 2rem;
+  margin: 0 2rem;
 }
 
-h4 a {
+li a:hover {
   color: #e51b24;
 }
 
@@ -127,6 +127,30 @@ nav a p {
 
 .pink-bg {
   background-color: #ffaec2;
+}
+
+.accordion-heading {
+  cursor: pointer;
+  padding: .5rem;
+}
+
+.accordion-heading span {
+  float: right;
+  margin-top: .25rem;
+}
+
+.accordion-heading:hover {
+  opacity: .9;
+  color: white;
+}
+
+.accordion-content {
+  padding: .5rem 0;
+  display: none;
+}
+
+.accordion-content a {
+  color: #e51b24;
 }
 
 @media only screen and (max-width: 800px) {
