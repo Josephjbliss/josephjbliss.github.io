@@ -12,7 +12,7 @@ This accordion will show and hide job information when a user clicks on a job ti
 
 The team's designer has provided you with the following visualization:
 
-![Prompt 1](https://github.com/ga-credentials/TheNextLevel/blob/master/assets/prompt1.gif)
+![Prompt 1](images/assets/prompt1.gif)
 
 When the user clicks on a job title with a closed job information panel:
 
@@ -86,7 +86,7 @@ Clicking through the right-hand navigation will allow the user to scroll-through
 
 The team's designer has provided you with the following visualization:
 
-![Prompt 2](https://github.com/ga-credentials/TheNextLevel/blob/master/assets/prompt2.gif)
+![Prompt 2](images/assets/prompt2.gif)
 
 When the user clicks on an anchor in the right-hand `<aside>`:
 
@@ -170,7 +170,7 @@ From there, clicking on any category will load all the articles in that category
 
 The team's designer has provided you with the following visualization:
 
-![Prompt 3](https://github.com/ga-credentials/TheNextLevel/blob/master/assets/prompt3.gif)
+![Prompt 3](images/assets/prompt3.gif)
 
 When the Blog page first loads:
 
